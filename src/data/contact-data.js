@@ -2,26 +2,28 @@ import {
   StarIcon,
   PresentationChartLineIcon,
   RocketLaunchIcon,
+  AcademicCapIcon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/24/solid";
 
 export const contactData = [
   {
-    title: "Excelent Services",
-    icon: StarIcon,
+    title: "Mission 1: Operations",
+    icon: MagnifyingGlassIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Agencies and Organizations will be made aware of the NCVS capability through presentations at conferences, training, social media, and actual operations.",
   },
   {
-    title: "Grow Your Market",
+    title: "Mission 2: Research",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "NCVS will apply for both Government and Private Sector/Foundation Grants to support research. ",
   },
   {
-    title: "Launch Time",
-    icon: RocketLaunchIcon,
+    title: "Mission 3: Training",
+    icon: AcademicCapIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Training the future requires instructors who are experts in their specialties and who maintain “practitioner skills” in Search Operations. This will be a requirement of all NCVS Instructors.",
   },
 ];
 

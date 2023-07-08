@@ -16,7 +16,7 @@ export const routes = [
   },
   {
     icon: UserCircleIcon,
-    name: "profile",
+    name: "about",
     path: "/profile",
     element: <Profile />,
   },
@@ -34,8 +34,8 @@ export const routes = [
   },
   {
     icon: DocumentTextIcon,
-    name: "Docs",
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    name: "Debriefings",
+    href: "#",
     target: "_blank",
     element: "",
   },

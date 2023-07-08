@@ -2,26 +2,28 @@ import {
   StarIcon,
   ArrowPathIcon,
   FingerPrintIcon,
+  CurrencyDollarIcon,
+  BookOpenIcon,
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
-    color: "blue",
-    title: "Awarded Agency",
-    icon: StarIcon,
+    color: "orange",
+    title: "Improve Training",
+    icon: BookOpenIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Train others to logically and effectively implement knowledge, skills, and abilities with the support of all technologies, to resolve the issues of search  and save lives.",
   },
   {
-    color: "red",
-    title: "Free Revisions",
-    icon: ArrowPathIcon,
+    color: "orange",
+    title: "Reduced Operational Costs",
+    icon: CurrencyDollarIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Reduce operational costs borne by resources by decreasing search time and effort.",
   },
   {
-    color: "teal",
-    title: "Verified Company",
+    color: "orange",
+    title: "Improved Find Rates",
     icon: FingerPrintIcon,
     description:
       "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",

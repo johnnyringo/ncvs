@@ -71,11 +71,11 @@ export function Navbar({ brandName, routes, action }) {
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
           <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
+            href="#"
             target="_blank"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
-              pro version
+              analytics
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -103,12 +103,12 @@ export function Navbar({ brandName, routes, action }) {
         <div className="container mx-auto">
           {navList}
           <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
+            href="#"
             target="_blank"
             className="mb-2 block"
           >
             <Button variant="text" size="sm" fullWidth>
-              pro version
+              analytics
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -121,14 +121,14 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "National Center for Virtual Search",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href="#"
       target="_blank"
     >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
+      <Button variant="gradient" color="orange" size="sm" fullWidth>
+        Contact Us
       </Button>
     </a>
   ),
