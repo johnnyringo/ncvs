@@ -45,7 +45,7 @@ SimpleFooter.defaultProps = {
   brandLink: "#",
   routes: [
     { name: "National Center for Virtual Search", path: "#" },
-    { name: "About Us", path: "/profile" },
+    { name: "About Us", path: "/about" },
     { name: "Debrifings", path: "#" },
     { name: "Privacy Policy", path: "#" },
   ],

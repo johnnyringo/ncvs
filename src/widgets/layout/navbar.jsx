@@ -22,7 +22,7 @@ export function Navbar({ routes}) {
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 justify-center">
-  {routes.map(({ name, path }) => (
+  {routes.map(({ name, path, href }) => (
     <Typography
       key={name}
       as="li"
