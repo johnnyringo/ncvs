@@ -63,6 +63,13 @@ export const routes = [
   },
   {
     icon: LinkIcon,
+    name: "podcast",
+    href: "/podcast",
+    target: "_blank",
+    element: "",
+  },
+  {
+    icon: LinkIcon,
     name: "need help?",
     href: "/needHelp",
     target: "_blank",
