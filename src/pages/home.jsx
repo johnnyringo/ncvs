@@ -167,7 +167,7 @@ Searchers/Management give up too soon, on detection issues and subject survivabi
               <Input variant="standard" size="lg" label="Email Address" />
             </div>
             <Textarea variant="standard" size="lg" label="Message" rows={8} />
-            <Button variant="gradient" size="lg" className="mt-8">
+            <Button color="orange" variant="gradient" size="lg" className="mt-8">
               Send Message
             </Button>
           </form>
