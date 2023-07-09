@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import PropTypes, { element } from "prop-types";
 import { Link } from "react-router-dom";
 import {
   Navbar as MTNavbar,
@@ -22,7 +22,7 @@ export function Navbar({ routes}) {
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 justify-center">
-  {routes.map(({ name, path, href }) => (
+  {routes.map(({ name, path }) => (
     <Typography
       key={name}
       as="li"

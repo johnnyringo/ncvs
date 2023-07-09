@@ -1,8 +1,6 @@
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import {
   MapPinIcon,
-  BriefcaseIcon,
-  BuildingLibraryIcon,
   PhoneArrowDownLeftIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
@@ -18,15 +16,7 @@ export function About() {
         <div className="container mx-auto">
           <div className="relative mb-6 -mt-64 flex w-full min-w-0 flex-col break-words rounded-3xl bg-white shadow-xl shadow-gray-500/5">
             <div className="px-6">
-              <div className="flex flex-wrap justify-center">
-                <div className="flex w-full justify-center px-4 lg:order-2 lg:w-3/12">
-                  <div className="relative">
-                    
-                  </div>
-                </div>
-                
-                
-              </div>
+             
               <div className="my-8 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
                   National Center for Virtual Search
