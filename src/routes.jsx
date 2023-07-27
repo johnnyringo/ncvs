@@ -24,7 +24,7 @@ export const routes = [
   {
     icon: ArrowRightOnRectangleIcon,
     name: "our story",
-    path: "/about",
+    path: "/pages/about",
     element: <About />,
   },
   {
