@@ -31,7 +31,7 @@ export function Navbar({ routes}) {
       className="capitalize"
     >
       <a href={path} target="_blank">
-        <Button variant="gradient" color="orange" size="sm" fullWidth>
+        <Button variant="gradient" color="orange" className="text-black" size="sm" fullWidth>
           {name}
         </Button>
       </a>
